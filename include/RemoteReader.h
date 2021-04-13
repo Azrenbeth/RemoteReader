@@ -4,7 +4,6 @@
 // ^^ Keep at the very top of the file
 
 #include "Arduino.h"
-#include "HardwareSerial.h"
 
 // How often in microseconds to call the sample function
 #define GAP_BETWEEN_SAMPLES 50

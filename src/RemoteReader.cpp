@@ -1,4 +1,6 @@
 #include "RemoteReader.h"
+#include "esp32-hal-timer.h"
+#include "HardwareSerial.h"
 
 // the irparams_t struct that the interrupt code can access
 volatile irparams_t irparams;
